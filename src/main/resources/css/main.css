@@ -5,6 +5,8 @@
     242
   ); /* Create a looked-up color called "main-color" within root. */
   -fx-background-color: main-color;
+  -fx-background-image: url("../images/background.png"); /* Set image */
+  -fx-background-size: cover;
 }
 
 .text-field {
@@ -27,7 +29,10 @@
   -fx-font-size: 20px;
 }
 
-.scroll-pane,
+.scroll-pane {
+  -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
 .scroll-pane .viewport {
   -fx-background-color: transparent;
 }
